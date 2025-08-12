@@ -9,4 +9,9 @@ class HomeController extends ControllerBase
     {
         $this->renderView('index_view');
     }
+
+    public function create()
+    {
+        var_dump($_POST);
+    }
 }

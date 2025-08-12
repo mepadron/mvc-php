@@ -6,4 +6,5 @@ use App\Router;
 
 $router = new Router();
 $router->get('/', HomeController::class, 'index');
+$router->post('/create', HomeController::class, 'create');
 $router->processRoute();
