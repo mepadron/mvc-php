@@ -1,0 +1,17 @@
+{
+    "name": "miguel/php",
+    "description": "mvc",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mepadron",
+            "email": "mikyeduards@gmail.com"
+        }
+    ],
+    "require": {}
+}
